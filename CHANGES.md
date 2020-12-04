@@ -252,6 +252,9 @@ Guidelines for the changelog:
 
 ## Command line options
 
+   * Option `--use_two_phase_tc` is no longer supported, F* uses the
+     two phase typechecker by default.
+
    * [PR #1711](https://github.com/FStarLang/FStar/pull/1711): Where
      options take lists of namespaces as arguments
      (`--already_cached`, `--extract`, `--using_facts_from`, etc.),
